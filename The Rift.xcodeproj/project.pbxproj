@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A419E8AF1BF1181300250F96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419E8AE1BF1181300250F96 /* AppDelegate.swift */; };
+		A419E8B11BF1181300250F96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419E8B01BF1181300250F96 /* ViewController.swift */; };
+		A419E8B41BF1181300250F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A419E8B21BF1181300250F96 /* Main.storyboard */; };
+		A419E8B71BF1181300250F96 /* The_Rift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A419E8B51BF1181300250F96 /* The_Rift.xcdatamodeld */; };
+		A419E8B91BF1181300250F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A419E8B81BF1181300250F96 /* Assets.xcassets */; };
+		A419E8BC1BF1181300250F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A419E8BA1BF1181300250F96 /* LaunchScreen.storyboard */; };
+		A419E8C71BF1181400250F96 /* The_RiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419E8C61BF1181400250F96 /* The_RiftTests.swift */; };
+		A419E8D21BF1181400250F96 /* The_RiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419E8D11BF1181400250F96 /* The_RiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A419E8C31BF1181400250F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A419E8A31BF1181300250F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A419E8AA1BF1181300250F96;
+			remoteInfo = "The Rift";
+		};
+		A419E8CE1BF1181400250F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A419E8A31BF1181300250F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A419E8AA1BF1181300250F96;
+			remoteInfo = "The Rift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A419E8AB1BF1181300250F96 /* The Rift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Rift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A419E8AE1BF1181300250F96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A419E8B01BF1181300250F96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A419E8B31BF1181300250F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A419E8B61BF1181300250F96 /* The_Rift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Rift.xcdatamodel; sourceTree = "<group>"; };
+		A419E8B81BF1181300250F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A419E8BB1BF1181300250F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A419E8BD1BF1181300250F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A419E8C21BF1181400250F96 /* The RiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The RiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A419E8C61BF1181400250F96 /* The_RiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_RiftTests.swift; sourceTree = "<group>"; };
+		A419E8C81BF1181400250F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A419E8CD1BF1181400250F96 /* The RiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The RiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A419E8D11BF1181400250F96 /* The_RiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_RiftUITests.swift; sourceTree = "<group>"; };
+		A419E8D31BF1181400250F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A419E8A81BF1181300250F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A419E8BF1BF1181400250F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A419E8CA1BF1181400250F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A419E8A21BF1181300250F96 = {
+			isa = PBXGroup;
+			children = (
+				A419E8AD1BF1181300250F96 /* The Rift */,
+				A419E8C51BF1181400250F96 /* The RiftTests */,
+				A419E8D01BF1181400250F96 /* The RiftUITests */,
+				A419E8AC1BF1181300250F96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A419E8AC1BF1181300250F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A419E8AB1BF1181300250F96 /* The Rift.app */,
+				A419E8C21BF1181400250F96 /* The RiftTests.xctest */,
+				A419E8CD1BF1181400250F96 /* The RiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A419E8AD1BF1181300250F96 /* The Rift */ = {
+			isa = PBXGroup;
+			children = (
+				A419E8AE1BF1181300250F96 /* AppDelegate.swift */,
+				A419E8B01BF1181300250F96 /* ViewController.swift */,
+				A419E8B21BF1181300250F96 /* Main.storyboard */,
+				A419E8B81BF1181300250F96 /* Assets.xcassets */,
+				A419E8BA1BF1181300250F96 /* LaunchScreen.storyboard */,
+				A419E8BD1BF1181300250F96 /* Info.plist */,
+				A419E8B51BF1181300250F96 /* The_Rift.xcdatamodeld */,
+			);
+			path = "The Rift";
+			sourceTree = "<group>";
+		};
+		A419E8C51BF1181400250F96 /* The RiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A419E8C61BF1181400250F96 /* The_RiftTests.swift */,
+				A419E8C81BF1181400250F96 /* Info.plist */,
+			);
+			path = "The RiftTests";
+			sourceTree = "<group>";
+		};
+		A419E8D01BF1181400250F96 /* The RiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A419E8D11BF1181400250F96 /* The_RiftUITests.swift */,
+				A419E8D31BF1181400250F96 /* Info.plist */,
+			);
+			path = "The RiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A419E8AA1BF1181300250F96 /* The Rift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A419E8D61BF1181400250F96 /* Build configuration list for PBXNativeTarget "The Rift" */;
+			buildPhases = (
+				A419E8A71BF1181300250F96 /* Sources */,
+				A419E8A81BF1181300250F96 /* Frameworks */,
+				A419E8A91BF1181300250F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Rift";
+			productName = "The Rift";
+			productReference = A419E8AB1BF1181300250F96 /* The Rift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A419E8C11BF1181400250F96 /* The RiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A419E8D91BF1181400250F96 /* Build configuration list for PBXNativeTarget "The RiftTests" */;
+			buildPhases = (
+				A419E8BE1BF1181400250F96 /* Sources */,
+				A419E8BF1BF1181400250F96 /* Frameworks */,
+				A419E8C01BF1181400250F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A419E8C41BF1181400250F96 /* PBXTargetDependency */,
+			);
+			name = "The RiftTests";
+			productName = "The RiftTests";
+			productReference = A419E8C21BF1181400250F96 /* The RiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A419E8CC1BF1181400250F96 /* The RiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A419E8DC1BF1181400250F96 /* Build configuration list for PBXNativeTarget "The RiftUITests" */;
+			buildPhases = (
+				A419E8C91BF1181400250F96 /* Sources */,
+				A419E8CA1BF1181400250F96 /* Frameworks */,
+				A419E8CB1BF1181400250F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A419E8CF1BF1181400250F96 /* PBXTargetDependency */,
+			);
+			name = "The RiftUITests";
+			productName = "The RiftUITests";
+			productReference = A419E8CD1BF1181400250F96 /* The RiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A419E8A31BF1181300250F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "American Well";
+				TargetAttributes = {
+					A419E8AA1BF1181300250F96 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A419E8C11BF1181400250F96 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A419E8AA1BF1181300250F96;
+					};
+					A419E8CC1BF1181400250F96 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A419E8AA1BF1181300250F96;
+					};
+				};
+			};
+			buildConfigurationList = A419E8A61BF1181300250F96 /* Build configuration list for PBXProject "The Rift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A419E8A21BF1181300250F96;
+			productRefGroup = A419E8AC1BF1181300250F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A419E8AA1BF1181300250F96 /* The Rift */,
+				A419E8C11BF1181400250F96 /* The RiftTests */,
+				A419E8CC1BF1181400250F96 /* The RiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A419E8A91BF1181300250F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A419E8BC1BF1181300250F96 /* LaunchScreen.storyboard in Resources */,
+				A419E8B91BF1181300250F96 /* Assets.xcassets in Resources */,
+				A419E8B41BF1181300250F96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A419E8C01BF1181400250F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A419E8CB1BF1181400250F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A419E8A71BF1181300250F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A419E8B11BF1181300250F96 /* ViewController.swift in Sources */,
+				A419E8AF1BF1181300250F96 /* AppDelegate.swift in Sources */,
+				A419E8B71BF1181300250F96 /* The_Rift.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A419E8BE1BF1181400250F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A419E8C71BF1181400250F96 /* The_RiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A419E8C91BF1181400250F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A419E8D21BF1181400250F96 /* The_RiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A419E8C41BF1181400250F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A419E8AA1BF1181300250F96 /* The Rift */;
+			targetProxy = A419E8C31BF1181400250F96 /* PBXContainerItemProxy */;
+		};
+		A419E8CF1BF1181400250F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A419E8AA1BF1181300250F96 /* The Rift */;
+			targetProxy = A419E8CE1BF1181400250F96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A419E8B21BF1181300250F96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A419E8B31BF1181300250F96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A419E8BA1BF1181300250F96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A419E8BB1BF1181300250F96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A419E8D41BF1181400250F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A419E8D51BF1181400250F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A419E8D71BF1181400250F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Rift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demeo.The-Rift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A419E8D81BF1181400250F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Rift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demeo.The-Rift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A419E8DA1BF1181400250F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The RiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demeo.The-RiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Rift.app/The Rift";
+			};
+			name = Debug;
+		};
+		A419E8DB1BF1181400250F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The RiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demeo.The-RiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Rift.app/The Rift";
+			};
+			name = Release;
+		};
+		A419E8DD1BF1181400250F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "The RiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demeo.The-RiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "The Rift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A419E8DE1BF1181400250F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "The RiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demeo.The-RiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "The Rift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A419E8A61BF1181300250F96 /* Build configuration list for PBXProject "The Rift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A419E8D41BF1181400250F96 /* Debug */,
+				A419E8D51BF1181400250F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A419E8D61BF1181400250F96 /* Build configuration list for PBXNativeTarget "The Rift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A419E8D71BF1181400250F96 /* Debug */,
+				A419E8D81BF1181400250F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A419E8D91BF1181400250F96 /* Build configuration list for PBXNativeTarget "The RiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A419E8DA1BF1181400250F96 /* Debug */,
+				A419E8DB1BF1181400250F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A419E8DC1BF1181400250F96 /* Build configuration list for PBXNativeTarget "The RiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A419E8DD1BF1181400250F96 /* Debug */,
+				A419E8DE1BF1181400250F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A419E8B51BF1181300250F96 /* The_Rift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A419E8B61BF1181300250F96 /* The_Rift.xcdatamodel */,
+			);
+			currentVersion = A419E8B61BF1181300250F96 /* The_Rift.xcdatamodel */;
+			path = The_Rift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A419E8A31BF1181300250F96 /* Project object */;
+}
