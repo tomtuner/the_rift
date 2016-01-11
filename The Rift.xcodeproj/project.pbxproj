@@ -15,6 +15,17 @@
 		A419E8BC1BF1181300250F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A419E8BA1BF1181300250F96 /* LaunchScreen.storyboard */; };
 		A419E8C71BF1181400250F96 /* The_RiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419E8C61BF1181400250F96 /* The_RiftTests.swift */; };
 		A419E8D21BF1181400250F96 /* The_RiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419E8D11BF1181400250F96 /* The_RiftUITests.swift */; };
+		A419E8E01BF12C4200250F96 /* MySummonerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419E8DF1BF12C4200250F96 /* MySummonerViewController.swift */; };
+		A419E8ED1BF14A1100250F96 /* TRTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419E8EC1BF14A1100250F96 /* TRTheme.swift */; };
+		A44949EC1C37048400BDB0F5 /* NSManagedObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44949EB1C37048400BDB0F5 /* NSManagedObjectExtension.swift */; };
+		A45492981C38D220002DBB8B /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45492971C38D220002DBB8B /* SettingsManager.swift */; };
+		A454929E1C39B5D5002DBB8B /* Summoner+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45492991C39B5D5002DBB8B /* Summoner+CoreDataProperties.swift */; };
+		A454929F1C39B5D5002DBB8B /* Champion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454929A1C39B5D5002DBB8B /* Champion+CoreDataProperties.swift */; };
+		A45492A01C39B5D5002DBB8B /* Champion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454929B1C39B5D5002DBB8B /* Champion.swift */; };
+		A45492A11C39B5D5002DBB8B /* Match+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454929C1C39B5D5002DBB8B /* Match+CoreDataProperties.swift */; };
+		A45492A21C39B5D5002DBB8B /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454929D1C39B5D5002DBB8B /* Match.swift */; };
+		A45C6B5E1BF298B700380AB9 /* Summoner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45C6B5D1BF298B700380AB9 /* Summoner.swift */; };
+		A483AD9F1C43189800058386 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A483AD9E1C43189800058386 /* AFNetworking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A419E8E71BF1410300250F96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A419E8AB1BF1181300250F96 /* The Rift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Rift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A419E8AE1BF1181300250F96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +72,17 @@
 		A419E8CD1BF1181400250F96 /* The RiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The RiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A419E8D11BF1181400250F96 /* The_RiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_RiftUITests.swift; sourceTree = "<group>"; };
 		A419E8D31BF1181400250F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A419E8DF1BF12C4200250F96 /* MySummonerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySummonerViewController.swift; sourceTree = "<group>"; };
+		A419E8EC1BF14A1100250F96 /* TRTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRTheme.swift; sourceTree = "<group>"; };
+		A44949EB1C37048400BDB0F5 /* NSManagedObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObjectExtension.swift; sourceTree = "<group>"; };
+		A45492971C38D220002DBB8B /* SettingsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		A45492991C39B5D5002DBB8B /* Summoner+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Summoner+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A454929A1C39B5D5002DBB8B /* Champion+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Champion+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A454929B1C39B5D5002DBB8B /* Champion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Champion.swift; sourceTree = "<group>"; };
+		A454929C1C39B5D5002DBB8B /* Match+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Match+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A454929D1C39B5D5002DBB8B /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		A45C6B5D1BF298B700380AB9 /* Summoner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summoner.swift; sourceTree = "<group>"; };
+		A483AD9E1C43189800058386 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/AFNetworking.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A483AD9F1C43189800058386 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				A419E8AD1BF1181300250F96 /* The Rift */,
+				A419E8E51BF1406400250F96 /* Frameworks */,
 				A419E8C51BF1181400250F96 /* The RiftTests */,
 				A419E8D01BF1181400250F96 /* The RiftUITests */,
 				A419E8AC1BF1181300250F96 /* Products */,
@@ -101,11 +137,21 @@
 			children = (
 				A419E8AE1BF1181300250F96 /* AppDelegate.swift */,
 				A419E8B01BF1181300250F96 /* ViewController.swift */,
+				A44949EB1C37048400BDB0F5 /* NSManagedObjectExtension.swift */,
+				A419E8DF1BF12C4200250F96 /* MySummonerViewController.swift */,
+				A419E8EC1BF14A1100250F96 /* TRTheme.swift */,
+				A45492971C38D220002DBB8B /* SettingsManager.swift */,
 				A419E8B21BF1181300250F96 /* Main.storyboard */,
 				A419E8B81BF1181300250F96 /* Assets.xcassets */,
 				A419E8BA1BF1181300250F96 /* LaunchScreen.storyboard */,
 				A419E8BD1BF1181300250F96 /* Info.plist */,
 				A419E8B51BF1181300250F96 /* The_Rift.xcdatamodeld */,
+				A45C6B5D1BF298B700380AB9 /* Summoner.swift */,
+				A454929B1C39B5D5002DBB8B /* Champion.swift */,
+				A454929D1C39B5D5002DBB8B /* Match.swift */,
+				A45492991C39B5D5002DBB8B /* Summoner+CoreDataProperties.swift */,
+				A454929A1C39B5D5002DBB8B /* Champion+CoreDataProperties.swift */,
+				A454929C1C39B5D5002DBB8B /* Match+CoreDataProperties.swift */,
 			);
 			path = "The Rift";
 			sourceTree = "<group>";
@@ -128,6 +174,14 @@
 			path = "The RiftUITests";
 			sourceTree = "<group>";
 		};
+		A419E8E51BF1406400250F96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A483AD9E1C43189800058386 /* AFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +192,8 @@
 				A419E8A71BF1181300250F96 /* Sources */,
 				A419E8A81BF1181300250F96 /* Frameworks */,
 				A419E8A91BF1181300250F96 /* Resources */,
+				A419E8E61BF1408E00250F96 /* ShellScript */,
+				A419E8E71BF1410300250F96 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -254,14 +310,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A419E8E61BF1408E00250F96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/AFNetworking.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A419E8A71BF1181300250F96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A454929E1C39B5D5002DBB8B /* Summoner+CoreDataProperties.swift in Sources */,
+				A44949EC1C37048400BDB0F5 /* NSManagedObjectExtension.swift in Sources */,
+				A419E8E01BF12C4200250F96 /* MySummonerViewController.swift in Sources */,
+				A419E8ED1BF14A1100250F96 /* TRTheme.swift in Sources */,
 				A419E8B11BF1181300250F96 /* ViewController.swift in Sources */,
+				A45492981C38D220002DBB8B /* SettingsManager.swift in Sources */,
+				A454929F1C39B5D5002DBB8B /* Champion+CoreDataProperties.swift in Sources */,
 				A419E8AF1BF1181300250F96 /* AppDelegate.swift in Sources */,
 				A419E8B71BF1181300250F96 /* The_Rift.xcdatamodeld in Sources */,
+				A45492A21C39B5D5002DBB8B /* Match.swift in Sources */,
+				A45492A11C39B5D5002DBB8B /* Match+CoreDataProperties.swift in Sources */,
+				A45C6B5E1BF298B700380AB9 /* Summoner.swift in Sources */,
+				A45492A01C39B5D5002DBB8B /* Champion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +486,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "The Rift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demeo.The-Rift";
@@ -414,6 +502,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Thomas Demeo (B99478LPEN)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "The Rift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demeo.The-Rift";
@@ -488,6 +582,7 @@
 				A419E8D81BF1181400250F96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A419E8D91BF1181400250F96 /* Build configuration list for PBXNativeTarget "The RiftTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +591,7 @@
 				A419E8DB1BF1181400250F96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A419E8DC1BF1181400250F96 /* Build configuration list for PBXNativeTarget "The RiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +600,7 @@
 				A419E8DE1BF1181400250F96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

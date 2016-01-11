@@ -17,6 +17,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        TRTheme.applyTheme()
+        
+        SettingsManager.loadChampionInformation()
+        
+        let bundle = NSBundle.mainBundle()
+//        let seededDatabaseURL = bundle
+//            .URLForResource("TomtunerDatabase", withExtension: "sqlite")!
+        
+        // 2
+        let didCopyDatabase: Bool
+        do {
+//            try NSFileManager.defaultManager()
+//                .copyItemAtURL(seededDatabaseURL, toURL: url)
+            didCopyDatabase = true
+        } catch {
+            didCopyDatabase = false
+        }
         return true
     }
 
